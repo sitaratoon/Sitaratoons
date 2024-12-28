@@ -165,7 +165,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("ᴠᴇʀɪꜰʏ ✅", url=link)],
                     [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ❓', url=TUT_VID)]
                 ]
-                await message.reply(f"<b>ʏᴏᴜʀ ᴀᴅꜱ ᴛᴏᴋᴇɴ ɪꜱ ᴇxᴘɪʀᴇᴅ, ʀᴇꜰʀᴇꜱʜ ʏᴏᴜʀ ᴛᴏᴋᴇɴ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.\n\nᴛᴏᴋᴇɴ ᴛɪᴍᴇᴏᴜᴛ: {get_exp_time(VERIFY_EXPIRE)}\n\nᴡʜᴀᴛ ɪꜱ ᴛʜᴇ ᴛᴏᴋᴇɴ ❓\n\nᴛʜɪꜱ ɪꜱ ᴀɴ ᴀᴅꜱ ᴛᴏᴋᴇɴ. ɪꜰ ʏᴏᴜ ᴘᴀꜱꜱ 1 ᴀᴅ, ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ ꜰᴏʀ 12 ʜᴏᴜʀ ᴀꜰᴛᴇʀ ᴘᴀꜱꜱɪɴɢ ᴛʜᴇ ᴀᴅ.</b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                await message.reply(f"<b>ʏᴏᴜʀ ᴀᴅꜱ ᴛᴏᴋᴇɴ ɪꜱ ᴇxᴘɪʀᴇᴅ, ʀᴇꜰʀᴇꜱʜ ʏᴏᴜʀ ᴛᴏᴋᴇɴ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.\n\nᴛᴏᴋᴇɴ ᴛɪᴍᴇᴏᴜᴛ: {get_exp_time(VERIFY_EXPIRE)}\n\nᴡʜᴀᴛ ɪꜱ ᴛʜᴇ ᴛᴏᴋᴇɴ ❓\n\nᴛʜɪꜱ ɪꜱ ᴀɴ ᴀᴅꜱ ᴛᴏᴋᴇɴ. ɪꜰ ʏᴏᴜ ᴘᴀꜱꜱ 1 ᴀᴅ, ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ ꜰᴏʀ 12 ʜᴏᴜʀ ᴀꜰᴛᴇʀ ᴘᴀꜱꜱɪɴɢ ᴛʜᴇ ᴀᴅ.\n\n ᴅᴇᴠʟᴏᴘᴇʀ - @AcxAnime</b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
 
 
         
